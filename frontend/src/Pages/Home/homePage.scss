@@ -1,0 +1,15 @@
+@import '../../mixins.scss';
+.home{
+    @include main-style();
+
+    h1{
+        color: blue;
+        margin-bottom: 2rem;
+    }
+
+    img{
+        width: 700px;
+        max-width: 95%;
+        height: auto;
+    }
+}
