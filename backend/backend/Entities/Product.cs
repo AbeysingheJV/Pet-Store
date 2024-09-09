@@ -13,6 +13,6 @@ namespace backend.Entities
 
 		public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-		public DateTime UpdatedAt { get; set; }
+		public DateTime UpdatedAt { get; set; } = DateTime.Now;
 	}
 }
